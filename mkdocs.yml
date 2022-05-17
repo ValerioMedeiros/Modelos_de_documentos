@@ -1,0 +1,9 @@
+site_name: Modelos de documentos acadêmicos
+site_description: Este projeto busca fornecer modelos para projetos acadêmicos.
+repo_url: https://github.com/ValerioMedeiros/Modelos_de_documentos
+
+copyright: Este projeto é distribuído sobre licença acadêmica livre (MIT).
+
+theme:
+  name: material
+  language: pt
