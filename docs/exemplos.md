@@ -4,7 +4,6 @@
 
 Este exemplo é um modelo de cronograma simples, documentação sobre o gráfico de está [disponível aqui](https://github.com/mermaid-js/mermaid/blob/develop/docs/gantt.md).
 
-
 ```mermaid
     gantt
     title Cronograma de atividades do projeto
@@ -20,6 +19,17 @@ Este exemplo é um modelo de cronograma simples, documentação sobre o gráfico
     Preparação dos slides :p1, 2022-07-01, 10d
     Ensaio da apresentação :p2, 2022-07-07, 7d   
 ``` 
+ O cronograma pode prever os seguintes tópicos sugeridos:
+- Levantamento da literatura: quanto tempo você demora para ler e organizar as referências bibliográficas? 
+- Escolha do instrumento e preparação para coleta de dados: quanto tempo será gasto para escolher os instrumentos que serão usados na pesquisa? (Questionários, entrevistas e escalas, por exemplo). 
+- Levantamento de dados: quanto tempo é preciso para levantar os dados que serão usados no estudo? 
+- Escrita da parte teórica: quanto tempo será gasto para escrever o relatório? 
+- Análise dos dados: qual é o tempo necessário para organizar os dados coletados em planilhas e tabulá-los? 
+- Discussão dos resultados: quanto tempo você vai gastar para articular os seus dados com os dados de outros autores que pesquisaram as mesmas variáveis? 
+- Elaboração da conclusão e referências: quanto tempo é necessário para escrever as considerações finais e colocar a lista de referências bibliográficas nas normas da ABNT? 
+- Ajustes finais: de quanto tempo você precisa para revisar a formatação? 
+- Criação da apresentação: qual é o tempo necessário para elaborar os slides e ensaiar a apresentação? 
+- Defesa: Quando o trabalho será apresentado para a banca? 
 
 
 
