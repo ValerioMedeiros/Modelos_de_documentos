@@ -1,0 +1,525 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="pt">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Este projeto busca fornecer modelos para projetos acadêmicos." name="description"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.3.0, mkdocs-material-8.2.11" name="generator"/>
+<title>Exemplos básicos com Markdown - Modelos de documentos acadêmicos</title>
+<link href="../assets/stylesheets/main.8c5ef100.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.9647289d.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="none" data-md-color-primary="none" data-md-color-scheme="" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#exemplos-basicos-com-markdown">
+          Ir para o conteúdo
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Cabeçalho" class="md-header__inner md-grid">
+<a aria-label="Modelos de documentos acadêmicos" class="md-header__button md-logo" data-md-component="logo" href=".." title="Modelos de documentos acadêmicos">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Modelos de documentos acadêmicos
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Exemplos básicos com Markdown
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Buscar" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Buscar" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Pesquisar" class="md-search__options">
+<button aria-label="Limpar" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/ValerioMedeiros/Modelos_de_documentos" title="Ir ao repositório">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navegação" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Modelos de documentos acadêmicos" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Modelos de documentos acadêmicos">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    Modelos de documentos acadêmicos
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/ValerioMedeiros/Modelos_de_documentos" title="Ir ao repositório">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="..">
+        Seja bem vindo(a)!
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Exemplos básicos com Markdown
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          Modelos
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Modelos" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Modelos
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" id="__nav_3_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_1">
+          Relatorio
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Relatorio" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_1">
+<span class="md-nav__icon md-icon"></span>
+          Relatorio
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Modelos/Relatorio/relatorio/">
+        Relatorio
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Índice" class="md-nav md-nav--secondary">
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/ValerioMedeiros/Modelos_de_documentos/edit/main/docs/exemplos.md" title="Editar esta página">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
+</a>
+<h1 id="exemplos-basicos-com-markdown">Exemplos básicos com Markdown</h1>
+<p><strong>Mermaid permite criar e visualizar diagramas.</strong></p>
+<p>Este exemplo é um modelo de cronograma simples, documentação sobre o gráfico de está <a href="https://github.com/mermaid-js/mermaid/blob/develop/docs/gantt.md">disponível aqui</a>.</p>
+<div class="mermaid">    gantt
+    title Cronograma de atividades do projeto
+    dateFormat  YYYY-MM-DD
+    section Documentação
+    Pré-projeto     :a1, 2022-05-24, 15d
+    Levantamento de literatura   :a2,after a1  , 20d
+    Escrita da parte teórica  :a3,after a2, 7d
+    section Prototipação
+    Criação de telas do sistema     :c2,2022-06-10  , 12d
+    Criação do protótipo      :c3,after c2, 14d
+    section Defesa
+    Preparação dos slides :p1, 2022-07-01, 10d
+    Ensaio da apresentação :p2, 2022-07-07, 7d   
+</div>
+<p>O cronograma pode prever os seguintes tópicos sugeridos:
+- Levantamento da literatura: quanto tempo você demora para ler e organizar as referências bibliográficas? 
+- Escolha do instrumento e preparação para coleta de dados: quanto tempo será gasto para escolher os instrumentos que serão usados na pesquisa? (Questionários, entrevistas e escalas, por exemplo). 
+- Levantamento de dados: quanto tempo é preciso para levantar os dados que serão usados no estudo? 
+- Escrita da parte teórica: quanto tempo será gasto para escrever o relatório? 
+- Análise dos dados: qual é o tempo necessário para organizar os dados coletados em planilhas e tabulá-los? 
+- Discussão dos resultados: quanto tempo você vai gastar para articular os seus dados com os dados de outros autores que pesquisaram as mesmas variáveis? 
+- Elaboração da conclusão e referências: quanto tempo é necessário para escrever as considerações finais e colocar a lista de referências bibliográficas nas normas da ABNT? 
+- Ajustes finais: de quanto tempo você precisa para revisar a formatação? 
+- Criação da apresentação: qual é o tempo necessário para elaborar os slides e ensaiar a apresentação? 
+- Defesa: Quando o trabalho será apresentado para a banca? </p>
+<div class="mermaid">    graph TD
+        A[Christmas] --&gt;|Get money| B(Go shopping)
+        B --&gt; C{Let me think}
+        C --&gt;|One| D[Laptop]
+        C --&gt;|Two| E[iPhone]
+        C --&gt;|Three| F[fa:fa-car Car]
+</div>
+<p><strong>Diagrama de classes</strong></p>
+<div class="mermaid">classDiagram
+    Animal &lt;|-- Duck
+    Animal &lt;|-- Fish
+    Animal &lt;|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class Fish{
+      -int sizeInFeet
+      -canEat()
+    }
+    class Zebra{
+      +bool is_wild
+      +run()
+    }
+
+</div>
+<p>Para representar outros diagramas  consulte <a href="https://mermaid-js.github.io/mermaid/#/">Mermaid's Syntax</a>.</p>
+<h1 id="uma-secao-comprimida-contendo-markdown">Uma seção comprimida contendo Markdown</h1>
+<details>
+<summary>Clique para expandir!</summary>
+
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+<h1 id="uma-secao-comprimida-contendo-codigo">Uma seção comprimida contendo código</h1>
+<details>
+<summary>Clique para expandir!</summary>
+
+  ```javascript
+    function logSometing(something) {
+      console.log(`Logging: ${something}`);
+    }
+  ```
+</details>
+<p><img alt="" src="img/header.png"/></p>
+<!-- **Edit this Page** [![N|Solid](img/GitHub-Mark-32px.png)](https://github.com/mermaid-js/mermaid/blob/develop/docs/README.md) -->
+<p><a href="https://travis-ci.org/mermaid-js/mermaid"><img alt="Build Status" src="https://travis-ci.org/mermaid-js/mermaid.svg?branch=master"/></a> <a href="https://www.npmjs.com/package/mermaid"><img alt="NPM" src="https://img.shields.io/npm/v/mermaid"/></a> <a href="https://coveralls.io/github/mermaid-js/mermaid?branch=master"><img alt="Coverage Status" src="https://coveralls.io/repos/github/mermaid-js/mermaid/badge.svg?branch=master"/></a> <a href="https://join.slack.com/t/mermaid-talk/shared_invite/enQtNzc4NDIyNzk4OTAyLWVhYjQxOTI2OTg4YmE1ZmJkY2Y4MTU3ODliYmIwOTY3NDJlYjA0YjIyZTdkMDMyZTUwOGI0NjEzYmEwODcwOTE"><img alt="Join our Slack!" src="https://img.shields.io/static/v1?message=join%20chat&amp;color=9cf&amp;logo=slack&amp;label=slack"/></a></p>
+<!-- Mermaid book banner -->
+<p><a href="https://mermaid-js.github.io/mermaid/landing/"><img alt="Explore Mermaid.js in depth, with real-world examples, tips &amp; tricks from the creator... The first official book on Mermaid is available for purchase. Check it out!" src="img/book-banner-post-release.jpg"/></a></p>
+<!-- <Main description> -->
+<p>Mermaid is a Javascript based diagramming and charting tool that uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams.  The main purpose of Mermaid is to help documentation catch up with development.</p>
+<blockquote>
+<p>Doc-Rot is a Catch-22 that Mermaid helps to solve.</p>
+</blockquote>
+<p>Diagramming and documentation costs precious developer time and gets outdated quickly.
+But not having diagrams or docs ruins productivity and hurts organizational learning.<br/>
+Mermaid addresses this problem by enabling users to create easily modifiable diagrams, it can also be made part of production scripts (and other pieces of code).<br/>
+<br/>
+Mermaid allows even non-programmers to easily create detailed and diagrams through the <a href="https://mermaid-js.github.io/mermaid-live-editor/">Mermaid Live Editor</a>.<br/>
+<a href="./docs/Tutorials.md">Tutorials</a> has video tutorials.
+Use Mermaid with your favorite applications, check out the list of <a href="./docs/integrations.md">Integrations and Usages of Mermaid</a>.</p>
+<p>For a more detailed introduction to Mermaid and some of its more basic uses, look to the <a href="./docs/n00b-overview.md">Beginner's Guide</a> and <a href="./docs/usage.md">Usage</a>.</p>
+<p>🌐 <a href="https://unpkg.com/mermaid/">CDN</a> | 📖 <a href="https://mermaidjs.github.io">Documentation</a> | 🙌 <a href="https://github.com/mermaid-js/mermaid/blob/develop/docs/development.md">Contribution</a> | 📜 <a href="./CHANGELOG.md">Version Log</a> | 🔌 <a href="./integrations.md">Plug-Ins</a></p>
+<blockquote>
+<p>🖖 Keep a steady pulse: mermaid needs more Collaborators, <a href="https://github.com/knsv/mermaid/issues/866">Read More</a>.</p>
+</blockquote>
+<p>:trophy: <strong>Mermaid was nominated and won the <a href="https://osawards.com/javascript/#nominees">JS Open Source Awards (2019)</a> in the category "The most exciting use of technology"!!!</strong></p>
+<p><strong>Thanks to all involved, people committing pull requests, people answering questions and special thanks to Tyler Long who is helping me maintain the project 🙏</strong></p>
+<p>In our release process we rely heavily on visual regression tests using <a href="https://applitools.com/">applitools</a>. Applitools is a great service which has been easy to use and integrate with our tests.</p>
+<p><a href="https://applitools.com/">
+<svg fill="none" height="32" viewbox="0 0 170 32" width="170" xmlns="http://www.w3.org/2000/svg"><mask height="32" id="a" maskunits="userSpaceOnUse" width="143" x="27" y="0"><path clip-rule="evenodd" d="M27.732.227h141.391v31.19H27.733V.227z" fill="#fff" fill-rule="evenodd"></path></mask><g mask="url(#a)"><path clip-rule="evenodd" d="M153.851 22.562l1.971-3.298c1.291 1.219 3.837 2.402 5.988 2.402 1.971 0 2.903-.753 2.903-1.829 0-2.832-10.253-.502-10.253-7.313 0-2.904 2.51-5.45 7.099-5.45 2.904 0 5.234 1.004 6.955 2.367l-1.829 3.226c-1.039-1.075-3.011-2.008-5.126-2.008-1.65 0-2.725.717-2.725 1.685 0 2.546 10.289.395 10.289 7.386 0 3.19-2.724 5.52-7.528 5.52-3.012 0-5.916-1.003-7.744-2.688zm-5.7 2.259h4.553V.908h-4.553v23.913zm-6.273-8.676c0-2.689-1.578-5.02-4.446-5.02-2.832 0-4.409 2.331-4.409 5.02 0 2.724 1.577 5.055 4.409 5.055 2.868 0 4.446-2.33 4.446-5.055zm-13.588 0c0-4.912 3.442-9.07 9.142-9.07 5.736 0 9.178 4.158 9.178 9.07 0 4.911-3.442 9.106-9.178 9.106-5.7 0-9.142-4.195-9.142-9.106zm-5.628 0c0-2.689-1.577-5.02-4.445-5.02-2.832 0-4.41 2.331-4.41 5.02 0 2.724 1.578 5.055 4.41 5.055 2.868 0 4.445-2.33 4.445-5.055zm-13.587 0c0-4.912 3.441-9.07 9.142-9.07 5.736 0 9.178 4.158 9.178 9.07 0 4.911-3.442 9.106-9.178 9.106-5.701 0-9.142-4.195-9.142-9.106zm-8.425 4.338v-8.999h-2.868v-3.98h2.868V2.773h4.553v4.733h3.514v3.979h-3.514v7.78c0 1.111.574 1.936 1.578 1.936.681 0 1.326-.251 1.577-.538l.968 3.478c-.681.609-1.9 1.11-3.8 1.11-3.191 0-4.876-1.648-4.876-4.767zm-8.962 4.338h4.553V7.505h-4.553V24.82zm-.43-21.905a2.685 2.685 0 012.688-2.69c1.506 0 2.725 1.184 2.725 2.69a2.724 2.724 0 01-2.725 2.724c-1.47 0-2.688-1.219-2.688-2.724zM84.482 24.82h4.553V.908h-4.553v23.913zm-6.165-8.676c0-2.976-1.793-5.02-4.41-5.02-1.47 0-3.119.825-3.908 1.973v6.094c.753 1.111 2.438 2.008 3.908 2.008 2.617 0 4.41-2.044 4.41-5.055zm-8.318 6.453v8.82h-4.553V7.504H70v2.187c1.327-1.685 3.227-2.618 5.342-2.618 4.446 0 7.672 3.299 7.672 9.07 0 5.773-3.226 9.107-7.672 9.107-2.043 0-3.907-.86-5.342-2.653zm-10.718-6.453c0-2.976-1.793-5.02-4.41-5.02-1.47 0-3.119.825-3.908 1.973v6.094c.753 1.111 2.438 2.008 3.908 2.008 2.617 0 4.41-2.044 4.41-5.055zm-8.318 6.453v8.82H46.41V7.504h4.553v2.187c1.327-1.685 3.227-2.618 5.342-2.618 4.446 0 7.672 3.299 7.672 9.07 0 5.773-3.226 9.107-7.672 9.107-2.043 0-3.908-.86-5.342-2.653zm-11.758-1.936V18.51c-.753-1.004-2.187-1.542-3.657-1.542-1.793 0-3.263.968-3.263 2.617 0 1.65 1.47 2.582 3.263 2.582 1.47 0 2.904-.502 3.657-1.506zm0 4.159v-1.829c-1.183 1.434-3.227 2.259-5.485 2.259-2.761 0-5.988-1.864-5.988-5.736 0-4.087 3.227-5.593 5.988-5.593 2.33 0 4.337.753 5.485 2.115V13.85c0-1.756-1.506-2.904-3.8-2.904-1.829 0-3.55.717-4.984 2.044L28.63 9.8c2.115-1.901 4.84-2.726 7.564-2.726 3.98 0 7.6 1.578 7.6 6.561v11.186h-4.588z" fill="#00A298" fill-rule="evenodd"></path></g><path clip-rule="evenodd" d="M14.934 16.177c0 1.287-.136 2.541-.391 3.752-1.666-1.039-3.87-2.288-6.777-3.752 2.907-1.465 5.11-2.714 6.777-3.753.255 1.211.39 2.466.39 3.753m4.6-7.666V4.486a78.064 78.064 0 01-4.336 3.567c-1.551-2.367-3.533-4.038-6.14-5.207C11.1 4.658 12.504 6.7 13.564 9.262 5.35 15.155 0 16.177 0 16.177s5.35 1.021 13.564 6.915c-1.06 2.563-2.463 4.603-4.507 6.415 2.607-1.169 4.589-2.84 6.14-5.207a77.978 77.978 0 014.336 3.568v-4.025s-.492-.82-2.846-2.492c.6-1.611.93-3.354.93-5.174a14.8 14.8 0 00-.93-5.174c2.354-1.673 2.846-2.492 2.846-2.492" fill="#00A298" fill-rule="evenodd"></path></svg>
+</a></p>
+<h2 id="diagram-types">Diagram Types</h2>
+<h3 id="flowchart"><a href="./flowchart.md?id=flowcharts-basic-syntax">Flowchart</a></h3>
+<div class="mermaid">graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;D;
+</div>
+<p><img alt="Flowchart" src="img/flow.png"/></p>
+<h3 id="sequence-diagram"><a href="./sequenceDiagram.md">Sequence diagram</a></h3>
+<pre><code class="language-mmd">sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice-&gt;&gt;John: Hello John, how are you?
+    loop Healthcheck
+        John-&gt;&gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts &lt;br/&gt;prevail!
+    John--&gt;&gt;Alice: Great!
+    John-&gt;&gt;Bob: How about you?
+    Bob--&gt;&gt;John: Jolly good!
+</code></pre>
+<p><img alt="Sequence diagram" src="img/sequence.png"/></p>
+<h3 id="gantt-diagram"><a href="./gantt.md">Gantt diagram</a></h3>
+<pre><code class="language-mmd">gantt
+dateFormat  YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekdays 2014-01-10
+
+section A section
+Completed task            :done,    des1, 2014-01-06,2014-01-08
+Active task               :active,  des2, 2014-01-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2               :         des4, after des3, 5d
+</code></pre>
+<p><img alt="Gantt diagram" src="img/gantt.png"/></p>
+<h3 id="class-diagram"><a href="./classDiagram.md">Class diagram</a></h3>
+<pre><code class="language-mmd">classDiagram
+Class01 &lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &lt;--&gt; C2: Cool label
+</code></pre>
+<p><img alt="Class diagram" src="img/class.png"/></p>
+<h3 id="git-graph">Git graph</h3>
+<div class="mermaid">gitGraph
+    commit
+    commit
+    branch develop
+    commit
+    commit
+    commit
+    checkout main
+    commit
+    commit
+</div>
+<h3 id="entity-relationship-diagram-exclamation-experimental"><a href="./entityRelationshipDiagram.md">Entity Relationship Diagram - :exclamation: experimental</a></h3>
+<pre><code class="language-mmd">erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+
+</code></pre>
+<p><img alt="ER diagram" src="img/simple-er.png"/></p>
+<h3 id="user-journey-diagram"><a href="./user-journey.md">User Journey Diagram</a></h3>
+<pre><code class="language-mmd">journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+</code></pre>
+<p><img alt="Journey diagram" src="img/user-journey.png"/></p>
+<h2 id="installation">Installation</h2>
+<p><strong>In depth guides and examples can be found at <a href="/n00b-gettingStarted">Getting Started</a> and <a href="/usage">Usage</a>.</strong></p>
+<p><strong>It would also be helpful to learn more about mermaid's <a href="/n00b-syntaxReference">Syntax</a>.</strong></p>
+<h3 id="cdn">CDN</h3>
+<pre><code>https://unpkg.com/mermaid@&lt;version&gt;/dist/
+</code></pre>
+<p>To select a version:</p>
+<p>Replace <code>&lt;version&gt;</code> with the desired version number.</p>
+<p>Latest Version: <a href="https://unpkg.com/browse/mermaid@8.8.0/">https://unpkg.com/browse/mermaid@8.8.0/</a></p>
+<h2 id="deploying-mermaid">Deploying Mermaid</h2>
+<p>To Deploy Mermaid:</p>
+<ol>
+<li>You will need to install node v16, which would have npm</li>
+<li>Download yarn using npm</li>
+<li>Enter the following command: <code>yarn add mermaid</code></li>
+<li>You can then add mermaid as a dev dependency using this command:
+    <code>yarn add --dev mermaid</code></li>
+</ol>
+<h3 id="mermaid-api"><a href="./Setup.md">Mermaid API</a>:</h3>
+<p><strong>To deploy mermaid without a bundler, one can insert a <code>script</code> tag with an absolute address and a <code>mermaidAPI</code> call into the HTML like so:</strong></p>
+<pre><code class="language-html">&lt;script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;mermaid.initialize({startOnLoad:true});
+&lt;/script&gt;
+</code></pre>
+<p><strong>Doing so will command the mermaid parser to look for the <code>&lt;div&gt;</code> tags with <code>class="mermaid"</code>. From these tags mermaid will try to read the diagram/chart definitions and render them into svg charts.</strong></p>
+<p><strong>Examples can be found at</strong> <a href="/examples">Other examples</a></p>
+<h2 id="sibling-projects">Sibling projects</h2>
+<ul>
+<li><a href="https://github.com/mermaid-js/mermaid-live-editor">Mermaid Live Editor</a></li>
+<li><a href="https://github.com/mermaid-js/mermaid-cli">Mermaid CLI</a></li>
+<li><a href="https://github.com/mermaidjs/mermaid-webpack-demo">Mermaid Webpack Demo</a></li>
+<li><a href="https://github.com/mermaidjs/mermaid-parcel-demo">Mermaid Parcel Demo</a></li>
+</ul>
+<h2 id="request-for-assistance">Request for Assistance</h2>
+<p>Things are piling up and I have a hard time keeping up. It would be great if we could form a core team of developers to cooperate
+with the future development of mermaid.</p>
+<p>As part of this team you would get write access to the repository and would
+represent the project when answering questions and issues.</p>
+<p>Together we could continue the work with things like:</p>
+<ul>
+<li>Adding more types of diagrams like mindmaps, ert diagrams, etc.</li>
+<li>Improving existing diagrams</li>
+</ul>
+<p>Don't hesitate to contact me if you want to get involved!</p>
+<h2 id="for-contributors">For contributors</h2>
+<h3 id="setup">Setup</h3>
+<pre><code class="language-sh">yarn install
+</code></pre>
+<h3 id="build">Build</h3>
+<pre><code class="language-sh">yarn build:watch
+</code></pre>
+<h3 id="lint">Lint</h3>
+<pre><code class="language-sh">yarn lint
+</code></pre>
+<p>We use <a href="https://eslint.org/">eslint</a>.
+We recommend you to install <a href="https://eslint.org/docs/user-guide/integrations">editor plugins</a> to get real time lint result.</p>
+<h3 id="test">Test</h3>
+<pre><code class="language-sh">yarn test
+</code></pre>
+<p>Manual test in browser: open <code>dist/index.html</code></p>
+<h3 id="release">Release</h3>
+<p>For those who have the permission to do so:</p>
+<p>Update version number in <code>package.json</code>.</p>
+<pre><code class="language-sh">npm publish
+</code></pre>
+<p>The above command generates files into the <code>dist</code> folder and publishes them to npmjs.org.</p>
+<h2 id="related-projects">Related projects</h2>
+<ul>
+<li><a href="https://github.com/mermaid-js/mermaid-cli">Command Line Interface</a></li>
+<li><a href="https://github.com/mermaid-js/mermaid-live-editor">Live Editor</a></li>
+<li><a href="https://github.com/TomWright/mermaid-server">HTTP Server</a></li>
+</ul>
+<h2 id="contributors">Contributors <a href="https://github.com/mermaid-js/mermaid/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+first+issue%21%22"><img alt="Good first issue" src="https://img.shields.io/github/labels/mermaid-js/mermaid/Good%20first%20issue%21"/></a> <a href="https://github.com/mermaid-js/mermaid/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/mermaid-js/mermaid"/></a> <a href="https://github.com/mermaid-js/mermaid/graphs/contributors"><img alt="Commits" src="https://img.shields.io/github/commit-activity/m/mermaid-js/mermaid"/></a></h2>
+<p>Mermaid is a growing community and is always accepting new contributors. There's a lot of different ways to help out and we're always looking for extra hands! Look at <a href="https://github.com/mermaid-js/mermaid/issues/866">this issue</a> if you want to know where to start helping out.</p>
+<p>Detailed information about how to contribute can be found in the <a href="CONTRIBUTING.md">contribution guide</a></p>
+<h2 id="security-and-safe-diagrams">Security and safe diagrams</h2>
+<p>For public sites, it can be precarious to retrieve text from users on the internet, storing that content for presentation in a browser at a later stage. The reason is that the user content can contain embedded malicious scripts that will run when the data is presented. For Mermaid this is a risk, specially as mermaid diagrams contain many characters that are used in html which makes the standard sanitation unusable as it also breaks the diagrams. We still make an effort to sanitise the incoming code and keep refining the process but  it is hard to guarantee that there are no loop holes.</p>
+<p>As an extra level of security for sites with external users we are happy to introduce a new security level in which the diagram is rendered in a sandboxed iframe preventing javascript in the code from  being executed. This is a great step forward for better security.</p>
+<p><em>Unfortunately you can not have a cake and eat it at the same time which in this case means that some of the interactive functionality gets blocked along with the possible malicious code.</em></p>
+<h2 id="reporting-vulnerabilities">Reporting vulnerabilities</h2>
+<p>To report a vulnerability, please e-mail security@mermaid.live with a description of the issue, the steps you took to create the issue, affected versions, and if known, mitigations for the issue.</p>
+<h2 id="appreciation">Appreciation</h2>
+<p>A quick note from Knut Sveidqvist:</p>
+<blockquote>
+<p><em>Many thanks to the <a href="https://d3js.org/">d3</a> and <a href="https://github.com/cpettitt/dagre-d3">dagre-d3</a> projects for providing the graphical layout and drawing libraries!</em>
+<em>Thanks also to the <a href="https://bramp.github.io/js-sequence-diagrams">js-sequence-diagram</a> project for usage of the grammar for the sequence diagrams. Thanks to Jessica Peter for inspiration and starting point for gantt rendering.</em>
+<em>Thank you to <a href="https://github.com/tylerlong">Tyler Long</a> who has been a collaborator since April 2017.</em></p>
+<p><em>Thank you to the ever-growing list of <a href="https://github.com/knsv/mermaid/graphs/contributors">contributors</a> that brought the project this far!</em></p>
+</blockquote>
+<hr/>
+<p><em>Mermaid was created by Knut Sveidqvist for easier documentation.</em></p>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Rodapé" class="md-footer__inner md-grid">
+<a aria-label="Anterior: Seja bem vindo(a)!" class="md-footer__link md-footer__link--prev" href=".." rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Anterior
+              </span>
+              Seja bem vindo(a)!
+            </div>
+</div>
+</a>
+<a aria-label="Próximo: Relatorio" class="md-footer__link md-footer__link--next" href="../Modelos/Relatorio/relatorio/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Próximo
+              </span>
+              Relatorio
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Este projeto é distribuído sobre licença acadêmica livre (MIT).
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+<script src="../assets/javascripts/bundle.748e2769.min.js"></script>
+<script src="https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({});</script></body>
+</html>
