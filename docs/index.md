@@ -3,6 +3,11 @@
 Este modelo adota o padrão Markdown.
 Para mais detalhes com mkdocs, [clique aqui](https://www.mkdocs.org).
 
+
+# Configuração do Mkdocs, Material e Mermaid
+
+`pip3 install mkdocs mkdocs-material mkdocs-mermaid2-plugin`
+
 ## Comandos para documentação com Mkdocs
 
 * `mkdocs new [dir-name]` - Cria um novo projeto.
